@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/loginstyle.css">
+    <script defer type="module" src="./js/login.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="tot">
+            <div class="selection">
+                <div class="loginbtn">LOGIN</div>
+                <div class="signupbtn">SIGNUP</div>
+            </div>
+            <div class="login">
+                <form action="home.jsp">
+                    <div class="lmail">
+                        <fieldset id="2">
+                            <legend>Email</legend>
+                            <input type="email" placeholder="Your Email" name="username" class="loginemail" required>
+                        </fieldset>
+                    </div>
+                    <div class="lpassword">
+                        <fieldset id="3">
+                            <legend>Password</legend>
+                            <input type="password" placeholder="Password" class="loginpw" required>
+                        </fieldset>
+                    </div>
+                        <button type="submit" class="btn2">Login</button>
+                    </form>
+            </div>
+            <div class="signup">
+                <form action="home.jsp">
+                    <div class="usern">
+                        <fieldset id="1">
+                            <legend>Username</legend>
+                            <input type="text" placeholder="Your name" name="username" class="signname" required>
+                        </fieldset>
+                    </div>
+                    <div class="mail">
+                        <fieldset id="2">
+                            <legend>Email</legend>
+                            <input type="email" placeholder="Your Email" name="email" class="signemail" required>
+                        </fieldset>
+                    </div>
+                    <div class="password">
+                        <fieldset id="3">
+                            <legend>Password</legend>
+                            <input type="password" placeholder="Password" class="signpw" required>
+                        </fieldset>
+                    </div>
+                    <button type="submit" class="btn1">Signup</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.container .tot
+{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 1px 4px 10px 2px #888888;
+    
+}
+.tot .selection
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.selection .loginbtn, .selection .signupbtn
+{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.selection .signupbtn
+{
+    border-left: 1px solid gray;
+    /* color: white; */
+    background-color: rgba(10, 46, 82, 0.897);
+}
+.tot .login
+{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    /* background-color: rgb(80, 168, 226); */
+    background-color: rgba(10, 46, 82, 0.897);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 0 0 30px 30px;
+    display: none;
+    transition: 0.3s ease-out;
+}
+.login .lmail, .lpassword{
+    margin-bottom: 30px;
+    
+}
+.login .btn2
+{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    margin-top: 4px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.tot .signup
+{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 46, 82, 0.897);
+    padding: 10px;
+    border-radius: 0 0 30px 30px;
+    /* display: none; */
+    transition: 0.3s ease-in-out;
+}
+.signup .usern, .mail, .password, .btn1
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+fieldset
+{
+    padding: 10px;
+    width: 100%; 
+    border-radius: 4px;
+    color: white;
+}
+input
+{
+    width: 100%;
+    height: 28px;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+}
+.signup .btn1{
+    padding: 8px;
+    border: none;
+    margin-top: 4px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+}

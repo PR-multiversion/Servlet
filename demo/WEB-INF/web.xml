@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding="utf-8"?>
+    <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="web.xsd">
+        <servlet>
+        <servlet-name>Helloservlet</servlet-name>
+        <servlet-class>Helloservlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>Helloservlet</servlet-name>
+        <url-pattern>/add</url-pattern>
+        </servlet-mapping>
+    </web-app>
